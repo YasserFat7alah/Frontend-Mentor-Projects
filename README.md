@@ -2,7 +2,7 @@
 
 This repository contains solutions to challenges from [Frontend Mentor](https://www.frontendmentor.io/). Each folder represents a different project, complete with the source code and assets.
 
-> 💡 All projects are built with clean, responsive code and follow best practices in HTML, CSS, and JavaScript. Some may include frameworks like React or use tools such as Sass, Bootstrap, or TailwindCSS depending on the challenge.
+> 💡 All projects are built with clean, responsive code and follow best practices in HTML, CSS, and JavaScript. Some may include frameworks like React or use tools such as Sass, Bootstrap, or TailwindCSS, depending on the challenge.
 
 ---
 
