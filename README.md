@@ -11,7 +11,7 @@ Each folder represents a different project, complete with the source code and as
 
 | Project | Live Demo | Source Code |
 |--------|-----------|-------------|
-| 1. [QR Code Component](./qr-code-component) | [View Live](https://yourusername.github.io/frontend-mentor-projects/qr-code-component) | [Source](./qr-code-component) |
+| 1. [QR Code Component](./qr-code-component) | [View Live](https://yourusername.github.io/frontend-mentor-projects/qr-code-component) | [Source](./qr-code-component/index.html) |
 | 2. [Product Preview Card](./product-preview-card) | [View Live](https://yourusername.github.io/frontend-mentor-projects/product-preview-card) | [Source](./product-preview-card) |
 | 3. [Stats Preview Card](./stats-preview-card) | [View Live](https://yourusername.github.io/frontend-mentor-projects/stats-preview-card) | [Source](./stats-preview-card) |
 | 4. [Interactive Rating Component](./interactive-rating-component) | [View Live](https://yourusername.github.io/frontend-mentor-projects/interactive-rating-component) | [Source](./interactive-rating-component) |
