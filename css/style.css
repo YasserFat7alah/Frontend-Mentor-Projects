@@ -32,6 +32,7 @@ body {
       box-shadow: 0 0.5px 5px var(--bgcolor-5);
       background-color: var(--bgcolor-3);
       transform: scale(1.05);
+      cursor: pointer;
     }
 
     .project-title {
