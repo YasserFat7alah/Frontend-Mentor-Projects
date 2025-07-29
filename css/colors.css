@@ -1,0 +1,139 @@
+/* === Color Palette CSS === */
+:root {
+  /* Light Mode Font Colors */
+  --grey-100: #e0e0e0;
+  --grey-200: #c2c2c2;
+  --grey-300: #a3a3a3;
+  --grey-400: #858585;
+  --grey-500: #666666;
+  --grey-600: #525252;
+  --grey-700: #3d3d3d;
+  --grey-800: #292929;
+  --grey-900: #141414;
+
+  /* Light Mode Background Colors */
+  --bgcolor-1: #ffffff;
+  --bgcolor-2: #f9fafb;
+  --bgcolor-3: #f3f4f6;
+  --bgcolor-4: #e5e7eb;
+  --bgcolor-5: #d1d5db;
+  --bgcolor-6: #9ca3af;
+
+  /* Light Mode Primary Shades */
+  --primary-1: #e8f0fe;
+  --primary-2: #c6dcfc;
+  --primary-3: #90bafc;
+  --primary-4: #5a99f7;
+  --primary-5: #2563eb;
+  --primary-6: #1e40af;
+
+  /* Light Mode Accent Colors */
+  --accent-green-1: #e6f6ec;
+  --accent-green-2: #bae9cc;
+  --accent-green-3: #86dab0;
+  --accent-green-4: #4ac38c;
+  --accent-green-5: #22a36e;
+  --accent-green-6: #17624a;
+
+  --accent-red-1: #ffecec;
+  --accent-red-2: #fabdbd;
+  --accent-red-3: #f28888;
+  --accent-red-4: #e04f4f;
+  --accent-red-5: #c61a1a;
+  --accent-red-6: #861212;
+
+  --accent-yellow-1: #fffbea;
+  --accent-yellow-2: #fef0b3;
+  --accent-yellow-3: #fde280;
+  --accent-yellow-4: #facc15;
+  --accent-yellow-5: #d1a100;
+  --accent-yellow-6: #8a6f00;
+
+  /* Status Colors Light Mode */
+  --status-warning: #facc15;
+  --status-threat: #e02424;
+  --status-accepted: #22c55e;
+}
+
+.dark {
+ /* Dark Mode Font Colors */
+  --grey-100: #141414;
+  --grey-200: #292929;
+  --grey-300: #3d3d3d;
+  --grey-400: #525252;
+  --grey-500: #666666;
+  --grey-600: #858585;
+  --grey-700: #a3a3a3;
+  --grey-800: #c2c2c2;
+  --grey-900: #e0e0e0;
+
+  /* Dark Mode Background Colors */
+  --bgcolor-1: #111827;
+  --bgcolor-2: #1f2937;
+  --bgcolor-3: #273143;
+  --bgcolor-4: #374151;
+  --bgcolor-5: #4b5563;
+  --bgcolor-6: #6b7280;
+
+  /* Dark Mode Primary Shades */
+  --primary-1: #026091;
+  --primary-2: #1d4ed8;
+  --primary-3: #3b82f6;
+  --primary-4: #60a5fa;
+  --primary-5: #93c5fd;
+  --primary-6: #dbeafe;
+
+  /* Dark Mode Accent Colors */
+  --accent-green-1: #0f2922;
+  --accent-green-2: #1e5245;
+  --accent-green-3: #2e7c67;
+  --accent-green-4: #3da58a;
+  --accent-green-5: #4cceac;
+  --accent-green-6: #70d8bd;
+
+  --accent-red-1: #2c100f;
+  --accent-red-2: #58201e;
+  --accent-red-3: #832f2c;
+  --accent-red-4: #af3f3b;
+  --accent-red-5: #db4f4a;
+  --accent-red-6: #e2726e;
+
+  --accent-yellow-1: #332900;
+  --accent-yellow-2: #4d3d00;
+  --accent-yellow-3: #7c6100;
+  --accent-yellow-4: #b28500;
+  --accent-yellow-5: #e5aa00;
+  --accent-yellow-6: #ffce47;
+
+  /* Status Colors Dark Mode */
+  --status-warning: #facc15;
+  --status-threat: #f87171;
+  --status-accepted: #4ade80;
+}
+
+#yas {
+    position: fixed;
+    width: 150px;
+    transform: rotate(-13deg);
+    right: 10px;
+    bottom: 10px;
+}
+
+#toggle-dark {
+  position: fixed;
+  width: 100px;
+  height: 30px;
+  right: 40px;
+  outline: none;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid var(--bgcolor-4);
+  background-color: var(--bgcolor-2);
+  color: var(--grey-900);
+}
+
+#toggle-dark:hover {
+  box-shadow: 0 0.5px 5px var(--bgcolor-5);
+      background-color: var(--bgcolor-3);
+      transform: scale(1.05);
+}

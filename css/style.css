@@ -1,0 +1,54 @@
+@import url(colors.css);
+
+body {
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+      background-color: var(--bgcolor-1);
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--primary-6);
+    }
+
+    .projects {
+      max-width: 700px;
+      margin: 2rem auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    .project {
+      background-color: var(--bgcolor-2);
+      border: 1px solid var(--bgcolor-4);
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .project:hover {
+      box-shadow: 0 0.5px 5px var(--bgcolor-5);
+      background-color: var(--bgcolor-3);
+      transform: scale(1.05);
+    }
+
+    .project-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: var(--primary-6);
+      cursor: default;
+      user-select: none;
+    }
+
+    .project a {
+      color: var(--primary-5);
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+
+    .project a:hover {
+      color: var(--primary-6);
+    }
