@@ -40,6 +40,6 @@ Check it out here: [https://www.frontendmentor.io/](https://www.frontendmentor.i
 Clone the repo and open any folder:
 
 ```bash
-git clone https://github.com/yourusername/frontend-mentor-projects.git
-cd frontend-mentor-projects/project-folder-name
+git clone https://github.com/YasserFat7alah/Frontend-Mentor-Projects.git
+cd Frontend-Mentor-Projects
 open index.html
