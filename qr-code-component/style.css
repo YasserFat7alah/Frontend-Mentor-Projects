@@ -87,9 +87,14 @@ main {
     color:hsl(212, 45%, 89%);
 }
 
+@media screen and (max-width: 420px) {
 
-@media (max-width:376px) {
+    #yas {
+        width: 100px;
+    }
+
     .info p {
         color:hsl(216, 15%, 48%);
     }
+  
 }

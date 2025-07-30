@@ -20,7 +20,7 @@ body {
       gap: 1.2rem;
     }
 
-    .project {
+    .project, . project:focus {
       background-color: var(--bgcolor-2);
       border: 1px solid var(--bgcolor-4);
       padding: 1rem 1.5rem;
@@ -53,3 +53,11 @@ body {
     .project a:hover {
       color: var(--primary-6);
     }
+
+    @media screen and (max-width: 420px) {
+
+    #yas {
+        width: 100px;
+    }
+
+  }

@@ -38,7 +38,6 @@ body {
 
 .wrapper {
     width: 384px;
-    height: 522px;
     background-color: var(--White);
     padding: 24px;
     margin: 120px auto;
@@ -55,7 +54,7 @@ body {
 }
 
 .img-wrapper img {
-    height: 200px;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -112,3 +111,26 @@ body {
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width: 420px) {
+
+    #yas {
+        width: 100px;
+    }
+
+    *{
+        font-size: 12px;
+    }
+    
+    .wrapper {
+        width: 327px;
+
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+
+}
