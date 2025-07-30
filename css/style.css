@@ -20,7 +20,7 @@ body {
       gap: 1.2rem;
     }
 
-    .project, . project:focus {
+    .project, .project:focus {
       background-color: var(--bgcolor-2);
       border: 1px solid var(--bgcolor-4);
       padding: 1rem 1.5rem;
