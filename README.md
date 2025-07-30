@@ -12,7 +12,7 @@ Each folder represents a different project, complete with the source code and as
 | Project | Live Demo | Source Code |
 |--------|-----------|-------------|
 | 1. [QR Code Component](./qr-code-component) | [View Live](https://yasserfat7alah.github.io/Frontend-Mentor-Projects/qr-code-component/index.html) | [Source](./qr-code-component/index.html) |
-| 2. [Product Preview Card](./product-preview-card) | [View Live](https://yasserfat7alah.github.io/Frontend-Mentor-Projects/blog-preview-card/index.html) | [Source](./product-preview-card/index.html) |
+| 2. [Blog Preview Card](./blog-preview-card) | [View Live](https://yasserfat7alah.github.io/Frontend-Mentor-Projects/blog-preview-card/index.html) | [Source](./blog-preview-card/index.html) |
 
 ---
 
